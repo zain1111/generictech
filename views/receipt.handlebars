@@ -1,0 +1,326 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Credit Card Reciept</title>
+  </head>
+  <body>
+    <table
+      width="620"
+      border="0"
+      align="center"
+      cellpadding="0"
+      cellspacing="0"
+      style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;"
+    >
+
+      <tr>
+        <td width="620" height="244" valign="top">
+          <table
+            width="620"
+            height="244"
+            border="0"
+            align="center"
+            cellpadding="0"
+            cellspacing="0"
+          >
+            <tr>
+              <td width="310" height="244" valign="top">
+                <table
+                  width="310"
+                  height="244"
+                  border="0"
+                  align="center"
+                  cellpadding="0"
+                  cellspacing="0"
+                  style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;"
+                >
+                  <tr>
+                    <td width="310" height="29" valign="top"></td>
+                  </tr>
+                  <tr>
+                    <td width="310" height="215" valign="top">
+                      <table
+                        width="610"
+                        height="215"
+                        border="0"
+                        align="center"
+                        cellpadding="0"
+                        cellspacing="0"
+                        style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;"
+                      >
+                        <tr>
+                          <td width="17" height="215" valign="top"></td>
+                          <td width="278" height="2i5" valign="top">
+                            <table
+                              width="278"
+                              height="215"
+                              border="0"
+                              align="center"
+                              cellpadding="0"
+                              cellspacing="0"
+                              style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;"
+                            >
+                              <tr>
+                                <td width="278" height="187" valign="top">
+                                  <table
+                                    width="590"
+                                    height="187"
+                                    border="0"
+                                    align="center"
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                    style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;"
+                                  >
+                                    <tr>
+                                      <td width="278" height="187" valign="top">
+                                        <p
+                                          style="font-size: 17px;font-stretch: normal;font-style: normal;line-height: 1.43;text-align: center;font-family: JosefinSans;"
+                                        >
+
+                                          <br> <br>
+                                          <img src="cid:logo" alt="" style="" />
+                                          <br /><br />
+                                          "Limitless Expression. Infinite
+                                          Prestige"
+
+                                        </p>
+ <br /><br />
+                                           <p
+                                          style="font-size: 17px;font-stretch: normal;font-style: normal;line-height: 1.43;text-align: center;font-family: JosefinSans;"
+                                        >{{invoice}}</p>
+                                        <h2
+                                          style="margin: -5px 0px 0px 0px;text-align: left;font-size: 22px;font-weight: bold;line-height: 1.96;letter-spacing: normal;color: #172e4c;font-family: JosefinSans;display:block;margin-left: 15px"
+                                        >Hi
+                                          {{userDetails.name}},
+                                        </h2>
+                                        <p
+                                          style="font-size: 16px;font-weight: normal;font-stretch: normal;font-style: normal;line-height: 1.43;text-align: left;color: black;font-family: JosefinSans;margin-left: 15px"
+                                        >
+                                          We have received your order. Your
+                                          custom crafted metal credit/debit card
+                                          is under construction.
+                                        </p>
+                                        <p
+                                          style="font-size: 17px;font-weight: bold;font-stretch: normal;font-style: normal;line-height: 1.43;text-align: center;color: #FB0202;font-family: JosefinSans; "
+                                        >
+                                          <br />
+                                          <div style="display: flex; justify-content:center;">
+                                          <div style="position:relative; width:400px;">
+                                          <img
+                                            src="cid:cardFront"
+                                            alt="Card Front"
+                                            style="height: 260px; border-radius:10px"
+                                          />
+                                          <p style="position: absolute; left:50%; top:55%; transform: translate(-50%,-50%); font-size:20px">Card Number: {{cardDetails.cardNumber}}</p>
+                                             <p style="position: absolute; left:50%; top:65%; transform: translate(-50%,-50%); font-size:20px">Card Expiry: {{cardDetails.cardExpiry}}</p>
+                                          <p style="position: absolute; left:20px; bottom:0px;  font-size:20px">Card Holder Name: {{cardDetails.cardName}}</p>
+                                          </div>
+                                          </div>
+                                          <br /><br />
+                                          <br />
+                                              <div style="display: flex; justify-content:center;">
+                                          <div style="position:relative; width:400px; ">
+                                          <img
+                                            src="cid:cardBack"
+                                            alt="Card Back"
+                                            style="height: 260px; border-radius:10px"
+                                          />
+                                                 <p style="position: absolute; right:25%; top:34%; ; font-size:20px">Security Code: {{cardDetails.cardCode}}</p>
+                                          </div>
+                                          </div>
+                                          <br /><br />
+
+                                          <p
+                                            style="font-size: 17px;font-stretch: normal;font-style: normal;line-height: 1.43;text-align: center;font-family: JosefinSans;"
+                                          >
+                                            <img
+                                              src="cid:emailLogo"
+                                              alt=""
+                                              style="width:100px;"
+                                            />
+                                          </p>
+                                          <p
+                                            style="font-size: 14px;font-weight: bold;font-stretch: normal;font-style: normal;line-height: 1.43;text-align: center;font-family: JosefinSans;"
+                                          >
+                                            <span
+                                              style="color: #BF9000"
+                                            >SHIPPING INSTRUCTIONS</span>:
+                                            <span style="font-size: 16px;">How
+                                              to ship your original card to us</span>
+                                          </p>
+                                        </p>
+                                        <p
+                                          style="font-size: 15px;font-stretch: normal;font-style: normal;line-height: 1.43;text-align: left;font-family: JosefinSans;margin-left: 15px"
+                                        ><br />
+                                          <span
+                                            style="color: #555555;font-weight: bold"
+                                          >Step 1.</span>
+                                          <span style="color: #8E8E8E">
+                                            Place your
+                                            <span
+                                              style="color: #555555;font-weight: bold"
+                                            >plastic bank card</span>
+                                            in a secure envelope.</span><br
+                                          /><br />
+
+                                          <span
+                                            style="color: #555555;font-weight: bold"
+                                          >Step 2.</span>
+                                          <span style="color: #8E8E8E">
+                                            Head over to the nearest Fedex
+                                            office and print your shipping label</span><br
+                                          /><br />
+                                          <span
+                                            style="color: #555555;font-weight: bold"
+                                          >[DIsclaimer] :</span>
+                                          <span style="color: #8E8E8E">If you
+                                            are using your own shipping method,
+                                            our delivery address is below:</span>
+
+                                          <br /><br />
+                                        </p>
+                                        <hr>
+                                        <p
+                                          style="font-size: 15px;font-weight: normal;font-stretch: normal;font-style: normal;line-height: 1.43;text-align: center;color: black;font-family: JosefinSans;"
+                                        >
+                                          <span
+                                            style="font-weight: bold;font-size: 18px;color:#565555"
+                                          >To: Swipemint</span><br /><br />
+                                          <span
+                                            style="font-weight: bold;font-size: 16px;color:#565555"
+                                          >Palazzo Versace Dubai</span><br />
+                                          <span
+                                            style="font-weight: bold;font-size: 16px;color:#565555"
+                                          >Suite #2416</span><br />
+                                          <span
+                                            style="font-weight: bold;font-size: 16px;color:#565555"
+                                          >Jaddaf Waterfront</span><br />
+                                          <span
+                                            style="font-weight: bold;font-size: 16px;color:#565555"
+                                          >DUBAI, UNITED ARAB EMIRATES</span><br
+                                          />
+
+                                        </p>
+                                        <hr>
+                                        {{!-- <p
+                                          style="font-size: 15px;font-weight: normal;font-stretch: normal;font-style: normal;line-height: 1.43;text-align: left;color: black;font-family: JosefinSans;"
+                                        >
+                                          <img
+                                            src="'.$actual_link.'images/email/delivery_img.PNG"
+                                            alt=""
+                                          />
+                                        </p> --}}
+
+                                   
+                                        {{!-- <p
+                                          style="font-size: 17px;font-stretch: normal;font-style: normal;line-height: 1.43;text-align: center;font-family: JosefinSans;"
+                                        >
+                                          <img
+                                            src="'.$actual_link.'images/email/Delivery.png"
+                                            alt=""
+                                            style="width:100px;"
+                                          />
+                                        </p> --}}
+
+                                        <p
+                                          style="font-size: 14px;font-weight: bold;font-stretch: normal;font-style: normal;line-height: 1.43;text-align: center;font-family: JosefinSans;"
+                                        >
+                                          <span style="color: #BF9000">DELIVERY
+                                            INFORMATION</span>:
+                                          <span
+                                            style="font-size: 16px;"
+                                          >Receiving your new metal card</span>
+                                        </p>
+
+                                        <p
+                                          style="font-size: 15px;font-stretch: normal;font-style: normal;line-height: 1.43;text-align: left;font-family: JosefinSans;margin-left: 15px"
+                                        ><br />
+
+                                          <ul>
+                                            <li    style="color: #8E8E8E;width: 400px">
+                                               You will receive a
+                                            <span
+                                              style="color: #555555;font-weight: bold"
+                                            >confirmation email</span>
+                                            once your original card arrives at
+                                            our facility.</span><br /><br />
+                                            </li>
+                                             <li    style="color: #8E8E8E;width: 400px">
+                                               You will receive your
+                                            <span
+                                              style="color: #555555;font-weight: bold"
+                                            >Tracking #</span>
+                                           once your new metal card is
+                                            completed and prepared for shipment.</span><br /><br />
+                                            </li>
+                                             <li    style="color: #8E8E8E;width: 400px">
+                                              Your shipment will be securely and
+                                            discreetly packaged and will include
+                                            you original card</span><br /><br />
+                                            </li>
+                                          </ul>
+                                         
+                                        </p>
+
+                                        {{!-- <p
+                                          style="font-size: 17px;font-stretch: normal;font-style: normal;line-height: 1.43;text-align: center;font-family: JosefinSans;"
+                                        >
+                                          <img
+                                            src="'.$actual_link.'images/email/info_icon.png"
+                                            alt=""
+                                            style="width:100px;"
+                                          />
+                                        </p> --}}
+                                        <p
+                                          style="font-size: 14px;font-weight: bold;font-stretch: normal;font-style: normal;line-height: 1.43;text-align: center;font-family: JosefinSans;"
+                                        >
+                                          <span style="color: #BF9000">IMPORTANT
+                                            INFORMATION</span>:
+                                          <span style="font-size: 16px;">What
+                                            you need to know</span>
+                                        </p>
+                                        <p
+                                          style="font-size: 15px;font-stretch: normal;font-style: normal;line-height: 1.43;text-align: left;font-family: JosefinSans;margin-left: 15px"
+                                        ><br />
+                                          <span
+                                            style="color: #555555;text-decoration:underline;font-size: 11px;font-weight:800 "
+                                          >DISCLOSURE</span>
+                                          <span
+                                            style="color: #555555;font-size: 12px;font-weight: bold "
+                                          >- WE DO NOT WORK WITH THESE RARE 5
+                                            EMV CHIP STYLES BELOW</span>
+                                          <span
+                                            style="color: #555555;font-size: 11px"
+                                          >(chance of having one of these select
+                                            EMV chips is VERY low as they are
+                                            extremely uncommon )</span>
+                                        </p>
+
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                          <td width="15" height="265" valign="top"></td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="310" height="25" valign="top">
+
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
